@@ -1,0 +1,150 @@
+footer {
+  font-family: arial;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+  width: 100%;
+  padding: 12px 0;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  list-style-type: none;
+  padding: 0 15px;
+  line-height: 14px;
+}
+
+footer ul li+li {
+  border-left: 1px solid #fff;
+}
+
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li a:hover {
+  color: #ff7496;
+}
+
+@media screen and (max-width: 768px) {
+  .cookies {
+    padding: 5px !important;
+  }
+
+  .cookies__button {
+    padding: 10px !important;
+  }
+
+  .cookies__close {
+    /* display: none; */
+  }
+}
+
+.cookies {
+  position: fixed;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  display: none;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.9);
+  z-index: 100;
+  padding: 10px 10%;
+  font-family: arial;
+  color: #000;
+  letter-spacing: .5px;
+}
+
+.cookies__text {
+  width: 80%;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.cookies__text strong {
+  color: #000 !important;
+  font-weight: bold;
+}
+
+.cookies__text a {
+  color: red;
+}
+
+.cookies__text a:before {
+  background: red;
+}
+
+.cookies__button {
+  font-size: 8px;
+  text-transform: uppercase;
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-radius: 50px;
+  padding: 20px 30px;
+  text-align: center;
+}
+
+.cookies__button strong {
+  color: #fff !important;
+}
+
+.cookies__close {
+  position: relative;
+  width: 26px;
+  height: 26px;
+  margin: 0 10px;
+}
+
+.cookies__close:hover {
+  cursor: pointer;
+}
+
+.cookies__close:before {
+  position: absolute;
+  left: 10px;
+  content: ' ';
+  height: 26px;
+  width: 3px;
+  background-color: #000;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.cookies__close:after {
+  position: absolute;
+  left: 10px;
+  content: ' ';
+  height: 26px;
+  width: 3px;
+  background-color: #000;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
