@@ -442,6 +442,40 @@ input[type="number"] {
   text-align: left;
 }
 
+@media(max-width: 1046px){
+  .step2 {
+    background: url('./backgrounds/tab/tab-2.jpg') top center/cover no-repeat;
+  }
+
+  .step5 {
+    background: url('./backgrounds/tab/tab-5.jpg') top center/cover no-repeat;
+  }
+
+  .step6 {
+    background: url('./backgrounds/tab/tab-6.jpg') top center/cover no-repeat;
+  }
+
+  .step9 {
+    background: url('./backgrounds/tab/tab-9.jpg') top center/cover no-repeat;
+  }
+
+  .step10 {
+    background: url('./backgrounds/tab/tab-10.jpg') top center/cover no-repeat;
+  }
+
+  .step13 {
+    background: url('./backgrounds/tab/tab-13.jpg') top center/cover no-repeat;
+  }
+
+  .step16 {
+    background: url('./backgrounds/tab/tab-16.jpg') top center/cover no-repeat;
+  }
+
+  .step17 {
+    background: url('./backgrounds/tab/tab-17.jpg') top center/cover no-repeat;
+  }
+}
+
 @media (max-width: 768px) {
   .step1 {
     background: url('./backgrounds/mob/mob-1.jpg') top center/cover no-repeat;
