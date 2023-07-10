@@ -26,7 +26,7 @@ window.addEventListener('DOMContentLoaded', () => {
   let e = $('.wp-block-button__link').attr('href'),
     t = window.location.search,
     i = new URLSearchParams(t);
-  $('.wp-block-button__link').each(function () {
+  $('.button__link').each(function () {
     $(this).attr('href', e + '?k1=' + i.get('k1') + '&k2=' + i.get('k1'));
   });
 });
