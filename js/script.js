@@ -20,7 +20,7 @@ window.addEventListener('DOMContentLoaded', () => {
     });
   })();
 
-  let e = $('.wp-block-button__link').attr('href'),
+  let e = $('.button__link').attr('href'),
     t = window.location.search,
     i = new URLSearchParams(t);
   $('.button__link').each(function () {
