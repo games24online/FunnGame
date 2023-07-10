@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;800&family=Roboto:wght@900&display=swap');
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 9em;
+    box-shadow: inset 1px 1px 10px #f3faf7;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #253861;
+}
+
+::-webkit-scrollbar-button:vertical {
+	height: 10px;
+}
+
+::-webkit-scrollbar-button:vertical:start:decrement {
+    background: linear-gradient(120deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),
+        linear-gradient(240deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),
+        linear-gradient(0deg, #02141a 30%, rgba(0, 0, 0, 0) 31%);
+    background-color: rgba(255,255,255,0.5);
+}
+
+::-webkit-scrollbar-button:vertical:end:increment {
+    background:
+        linear-gradient(300deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),
+        linear-gradient(60deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),
+        linear-gradient(180deg, #02141a 30%, rgba(0, 0, 0, 0) 31%);
+    background-color: rgba(255,255,255,0.5);
+}
+
+::-webkit-scrollbar-button:horizontal:start:decrement {
+    background:
+        linear-gradient(30deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),
+        linear-gradient(150deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),
+        linear-gradient(270deg, #02141a 30%, rgba(0, 0, 0, 0) 31%);
+    background-color: rgba(255,255,255,0.5);
+}
+
+::-webkit-scrollbar-button:horizontal:end:increment {
+    background:
+        linear-gradient(210deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),
+        linear-gradient(330deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),
+        linear-gradient(90deg, #02141a 30%, rgba(0, 0, 0, 0) 31%);
+    background-color: rgba(255,255,255,0.5);
+}
+
+form#signupForm {
+	width: 100%;
+}
+
+form#signupForm div.labels {
+	width: 100%;
+	position: relative;
+	display: block;
+	margin-bottom: 25px;
+}
+
+form#signupForm div.labels label{
+	position: absolute;
+	left: 0;
+}
+
+form#signupForm legend {
+	font-size: 14px;
+	font-family: 'Barlow', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	border: none;
+	padding: 0 0 5px 0;
+	margin: 0;
+	text-align: left;
+	color: #fff;
+	width: 100%;
+}
+
+form#signupForm label {
+	font-size: 10px;
+	font-family: 'Barlow', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	border: none;
+	padding: 5px 0;
+	margin: 0;
+	text-align: center;
+	color: #fff;
+	width: 100%;
+}
+
+form#signupForm label.error {
+	background: rgba(249, 0, 45, 0.5);
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+}
+
+form#signupForm input::placeholder {
+	font-size: 12px;
+	font-family: 'Barlow', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	color: #fff;
+	opacity: 0.65;
+}
+
+form#signupForm input[type='email'],
+form#signupForm input[type='email'],
+form#signupForm input[type='text'],
+form#signupForm input[type='password'] {
+	width: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border: 1px solid #000000 !important;
+	outline: none !important;
+	color: #fff;
+	font-size: 12px;
+	font-family: 'Barlow', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	padding: 10px 15px;
+}
+
+form#signupForm input.error {
+	box-shadow: 0px 0px 15px #EA1F43, 0px 0px 0px #EA1F43;
+	-webkit-box-shadow: 0px 0px 15px #EA1F43, 0px 0px 0px #EA1F43;
+	-moz-box-shadow: 0px 0px 15px #EA1F43, 0px 0px 0px #EA1F43;
+}
+
+form#signupForm input[type="submit"] {
+	margin-top: 10px;
+	font-style: normal;
+	font-weight: 800;
+    color: #ffffff;
+    width: 50%;
+    height: 55px;
+    border: 1px solid #2ccfe0;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    background: #2ccfe0;
+    max-width: 350px;
+    min-width: 240px;
+    border-radius: 4px;
+}
+
+form#signupForm input[type="submit"]:hover { 
+	border: 1px solid #FFFFFF; 
+}
+
+form#signupForm {
+	width: 94% !important;
+	max-width: 530px !important;
+	min-width: 290px !important;
+	height: auto !important;
+	max-height: 92% !important;
+	overflow-y: auto !important;
+	margin: 0 auto 20% auto !important;
+	padding: 3% 3% 5% 3% !important;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	background: rgba(0, 0, 0, 0.4);
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+}
+
+@media only screen and (max-height: 620px) {
+	form#signupForm label.info {
+	/*	display: none !important; */
+	}
+	form#signupForm div.labels {
+		margin-bottom: 10px;
+	}
+	form#signupForm label {
+		padding: 0;
+		font-size: 8px;
+	}
+	form#signupForm legend {
+		font-size: 12px;
+	}
+}
+
+@media only screen and (max-width: 420px) {
+	form#signupForm label {
+		font-size: 10px !important;
+	}
+}
+
+.rig{
+	display: block;
+	text-align: right !important;
+}

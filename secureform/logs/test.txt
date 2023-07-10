@@ -1,0 +1,12 @@
+array (
+  'email' => 'email@gmail.com',
+  'password' => 'password',
+  'firstname' => 'firstname',
+  'lastname' => 'lastname',
+  'zip' => 'zipcode',
+  'optionid' => '0',
+  'lpname' => 'test-serverFamilyCheaters_v10_short_email_funnel',
+  'lphost' => 'sexflix.games',
+  'country' => '',
+  'language' => 'ru',
+)
